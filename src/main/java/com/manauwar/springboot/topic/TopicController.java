@@ -39,5 +39,11 @@ public class TopicController {
 	{
 		topicService.updateTopic(id,topic);
 	}
+	
+	@RequestMapping(method=RequestMethod.DELETE,value="/topics/{id}")
+	public void deleteTopic(@PathVariable String id)
+	{
+		 topicService.deleteTopic(id);
+	}
 
 }

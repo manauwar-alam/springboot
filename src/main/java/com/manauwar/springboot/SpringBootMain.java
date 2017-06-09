@@ -1,4 +1,4 @@
-package com.manauwar.springboot.main;
+package com.manauwar.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
